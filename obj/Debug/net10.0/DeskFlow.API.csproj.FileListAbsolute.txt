@@ -79,3 +79,7 @@ C:\Users\Rodrigo\Documents\NET\DeskFlow.Api\obj\Debug\net10.0\refint\DeskFlow.AP
 C:\Users\Rodrigo\Documents\NET\DeskFlow.Api\obj\Debug\net10.0\DeskFlow.API.pdb
 C:\Users\Rodrigo\Documents\NET\DeskFlow.Api\obj\Debug\net10.0\DeskFlow.API.genruntimeconfig.cache
 C:\Users\Rodrigo\Documents\NET\DeskFlow.Api\obj\Debug\net10.0\ref\DeskFlow.API.dll
+C:\Users\Rodrigo\Documents\NET\DeskFlow.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Rodrigo\Documents\NET\DeskFlow.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Rodrigo\Documents\NET\DeskFlow.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rodrigo\Documents\NET\DeskFlow.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
