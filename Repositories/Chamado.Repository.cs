@@ -1,17 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using DeskFlow.API.Data;
 using DeskFlow.API.Models.Entities;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DeskFlow.API.Repositories;
-
-public partial interface IChamadoRepository
-{
-    Task<Chamado?> ObterPorIdCompletoAsync(int id);
-    Task<IEnumerable<Chamado>> ListarComFiltrosAsync(Status? status, Prioridade? prioridade, int? categoriaId);
-    Task AdicionarAsync(Chamado chamado);
-    Task AtualizarAsync(Chamado chamado);
-    Task AdicionarInteracaoAsync(Interacao interacao);
-}
 
 public class ChamadoRepository : IChamadoRepository
 {
