@@ -6,17 +6,6 @@ using System.Threading.Tasks;
 
 namespace DeskFlow.API.Repositories;
 
-// A interface que estava faltando foi declarada aqui dentro!
-public interface ICategoriaRepository
-{
-    Task<IEnumerable<Categoria>> ListarTodasAsync();
-    Task<Categoria?> ObterPorIdAsync(int id);
-    Task AdicionarAsync(Categoria categoria);
-    Task AtualizarAsync(Categoria categoria);
-    Task DeletarAsync(Categoria categoria);
-    Task<bool> PossuiChamadosVinculadosAsync(int categoriaId);
-}
-
 public class CategoriaRepository : ICategoriaRepository
 {
     private readonly AppDbContext _context;
